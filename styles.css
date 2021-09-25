@@ -10,9 +10,8 @@
 
 body {
     margin: 0;
-    background: linear-gradient(-45deg, rgb(10, 53, 51), rgb(13, 71, 68), #1a8e88, #c0e0d9);
-    background-size: 400% 400%;
-    animation: gradient 15s ease infinite;
+    background: url("/img/Background2.jpg");
+    background-size: cover;
 }
 
 @keyframes gradient {
@@ -46,7 +45,7 @@ body {
 
 .resume .resume_left {
     width: 300px;
-    background: rgb(29, 160, 153);
+    background: rgb(21, 181, 169);
 }
 
 .resume .resume_left .resume_profile{
@@ -95,7 +94,7 @@ body {
     width: 35px;
     height: 35px;
     background: #ffffff;
-    color: rgb(29, 160, 153);
+    color: rgb(21, 181, 169);
     border-radius: 50%;
     margin-right: 15px;
     font-size: 16px;
@@ -149,7 +148,7 @@ body {
 }
 
 .resume .resume_right .bold {
-    color: #1a8e88;
+    color: #15b5a9;
 }
 
 .resume .resume_right .resume_work ul,
@@ -178,7 +177,7 @@ body {
 
 .resume .resume_left .resume_item:last-child,
 .resume .resume_right .resume_item:last-child{
-    border-bottom: 0px;
+    border-bottom: 0;
 }
 
 .resume .resume_right ul li:last-child .info {
@@ -194,7 +193,7 @@ margin-bottom: 0
     width: 6px;
     height: 6px;
     border-radius: 50%;
-    border: 2px solid #1a8e88;
+    border: 2px solid #15b5a9;
 }
 
 .resume .resume_right .resume_work ul li .first:after {
@@ -204,7 +203,7 @@ margin-bottom: 0
     left: -22px;
     width: 3px;
     height: 122px;
-    background: #1a8e88;
+    background: #15b5a9;
 }
 
 .resume .resume_right .resume_work ul li .second:after {
@@ -214,7 +213,7 @@ margin-bottom: 0
     left: -22px;
     width: 3px;
     height: 142px;
-    background: #1a8e88;}
+    background: #15b5a9;}
 
 .resume .resume_right .resume_work ul li .third:after {
     content: "";
@@ -223,7 +222,7 @@ margin-bottom: 0
     left: -22px;
     width: 3px;
     height: 170px;
-    background: #1a8e88;}
+    background: #15b5a9;}
 
 .resume .resume_right .resume_education ul li:after {
     content: "";
@@ -232,7 +231,7 @@ margin-bottom: 0
     left: -22px;
     width: 3px;
     height: 85px;
-    background: #1a8e88;}
+    background: #15b5a9;}
 
 .fun {
     border-radius: 12px;
@@ -243,7 +242,7 @@ margin-bottom: 0
     border: 0;
     cursor: pointer;
     padding: .5em 1.25em;
-    background: linear-gradient(90deg, rgb(26, 142, 136), #0d4744);
+    background: linear-gradient(90deg, rgb(41, 162, 155), #1a8e88);
     background-size: 300%;
     background-position: left;
     transition: background-position 350ms;
@@ -276,10 +275,10 @@ a:hover {
 .resume .resume_right .resume_hobby ul li {
     width: 80px;
     height: 80px;
-    border: 2px solid #1a8e88;
+    border: 2px solid #15b5a9;
     border-radius: 50%;
     position: relative;
-    color: #1a8e88;
+    color: #15b5a9;
 }
 
 
@@ -294,7 +293,7 @@ a:hover {
     right: -50px;
     width: 50px;
     height: 2px;
-    background: #1a8e88;
+    background: #15b5a9;
 }
 
 .resume .resume_right .resume_hobby ul li:last-child:before {
