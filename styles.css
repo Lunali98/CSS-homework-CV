@@ -10,7 +10,7 @@
 
 body {
     margin: 0;
-    background: url("/img/Background2.jpg");
+    background: url("./img/Background2.jpg");
     background-size: cover;
 }
 
