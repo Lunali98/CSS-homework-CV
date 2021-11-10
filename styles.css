@@ -234,7 +234,13 @@ body {
     background: #15b5a9;}
 
 .resume .resume_right .resume_education ul li .info2:after {
-    height: 150px;
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -22px;
+    width: 3px;
+    height: 123px;
+    background: #15b5a9;
 }
 
 .fun {
@@ -266,40 +272,13 @@ a:visited {
     font-weight:bold;
     text-decoration:none
 }
-a:hover {
-    color: #d3d3c6;
+.soc:hover {
+    color: beige;
     font-weight:bold;
     text-decoration:none}
-
-
-.resume .resume_right .resume_hobby ul {
-    display: flex;
-    justify-content: space-between;
-}
-.resume .resume_right .resume_hobby ul li {
-    width: 80px;
-    height: 80px;
-    border: 2px solid #15b5a9;
-    border-radius: 50%;
-    position: relative;
-    color: #15b5a9;
+a:hover {
+    color: #29a29b;
+    font-weight:bold;
+    text-decoration:none
 }
 
-
-.resume .resume_right .resume_hobby ul li i{
-    font-size: 30px;
-}
-
-.resume .resume_right .resume_hobby ul li:before {
-    content: "";
-    position: absolute;
-    top: 40px;
-    right: -50px;
-    width: 50px;
-    height: 2px;
-    background: #15b5a9;
-}
-
-.resume .resume_right .resume_hobby ul li:last-child:before {
-    display:none
-}
