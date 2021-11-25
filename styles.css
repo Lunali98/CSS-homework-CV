@@ -114,12 +114,14 @@ body {
 
 .resume .resume_left .resume_skills ul li {
     color: beige;
-    justify-content: space-between;
+    font-size: 16px;
 }
 
 .resume .resume_left .resume_skills ul li .skill_name {
-    width: 25%;
-    font-size: 14px;
+
+    font-size: 18px;
+    font-weight: semi-bold;
+
 }
 .resume .resume_left .resume_skills ul li .skill_progress {
     width: 60%;
@@ -221,8 +223,19 @@ body {
     top: 14px;
     left: -22px;
     width: 3px;
+    height: 275px;
+    background: #15b5a9;}
+
+.resume .resume_right .resume_work ul li .fourth:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -22px;
+    width: 3px;
     height: 248px;
     background: #15b5a9;}
+}
+
 
 .resume .resume_right .resume_education ul li:after {
     content: "";
@@ -230,7 +243,7 @@ body {
     top: 14px;
     left: -22px;
     width: 3px;
-    height: 104px;
+    height: 100px;
     background: #15b5a9;}
 
 .resume .resume_right .resume_education ul li .info2:after {
@@ -242,6 +255,39 @@ body {
     height: 123px;
     background: #15b5a9;
 }
+
+.resume .resume_right .resume_education ul li .info3:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -22px;
+    width: 3px;
+    height: 85px;
+    background: #15b5a9;
+}
+
+.resume .resume_right .resume_education ul li .info4:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -22px;
+    width: 3px;
+    height: 123px;
+    background: #15b5a9;
+}
+
+.resume .resume_right .resume_education ul li .info1:after {
+    content: "";
+    position: absolute;
+    top: 14px;
+    left: -22px;
+    width: 3px;
+    height: 102px;
+    background: #15b5a9;
+}
+
+
+
 
 .fun {
     border-radius: 12px;
